@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background: #000;
+}
+
+h1,
+h4,
+a,
+p{
+  color: #fff;
+  text-decoration: none;
+}
+span{
+  color: rgb(248, 217, 15);
+}
+
+ul{
+  list-style-type: none;
+
+}
+.btn {
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:rgb(248, 217, 15) ;
+  color: #222;
+  border: 1px solid rgb(248, 217, 15);
+  font-weight: 600;
+  cursor: pointer;
+  transition: .15s ease-in-out;
+}
+
+.btn:hover{
+  background: transparent;
+  color: #fff;
+  transform: scale(1.05);
+  border: 1px solid #fff;
+}
+
+.btn:active{
+  background: rgb(248, 217, 15);
+  color: #222;
+  transform: scale(1);
+  border: 1px solid transparent;
+  
+}
+
+.btn-light{
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.15s ease-in-out;
+}
+
+.btn-light:hover{
+  background:  rgb(248, 217, 15);
+  color: #222;
+  transform: scale(2);
+  border: 1px solid rgb(248, 217, 15);
+}
+
+.btn-light:active{
+  background: transparent;
+  color: #fff;
+  transform: scale(1.03);
+  border: 1px solid #fff;
+  
+}
