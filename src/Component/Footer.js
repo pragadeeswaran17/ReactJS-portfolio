@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  FaFacebook,
   FaHome,
   FaInstagram,
   FaLinkedin,
@@ -30,7 +29,9 @@ function Footer() {
                 size={20}
                 style={{ color: "#FFF", marginRight: "2rem" }}
               />
-              +91 9787498776
+              <a href="tel:9787498776" target="blank">
+                +91 9787498776
+              </a>
             </h4>
           </div>
 
@@ -40,7 +41,12 @@ function Footer() {
                 size={20}
                 style={{ color: "#FFF", marginRight: "2rem" }}
               />
-              pragadeeswaran647@gmail.com
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vjpragaaa@gmail.com"
+                target="blank"
+              >
+                pragadeeswaran647@gmail.com
+              </a>
             </h4>
           </div>
         </div>
@@ -50,22 +56,30 @@ function Footer() {
           <p>this is me pragadeeswaran</p>
 
           <div className="social">
-            <a href="" r>
+            <a href="https://github.com/pragadeeswaran17" target="blank">
               <FaGithub
                 size={30}
                 style={{ color: "#FFF", marginRight: "2rem" }}
               />
             </a>
-
-            <FaInstagram
-              size={30}
-              style={{ color: "#FFF", marginRight: "2rem" }}
-            />
-
-            <FaLinkedin
-              size={30}
-              style={{ color: "#FFF", marginRight: "2rem" }}
-            />
+            <a
+              href="https://www.instagram.com/___pragaa?igshid=YTQwZjQ0NmI0OA=="
+              target="blank"
+            >
+              <FaInstagram
+                size={30}
+                style={{ color: "#FFF", marginRight: "2rem" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pragadeeswaran-r-7a6ab621a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="blank"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#FFF", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
